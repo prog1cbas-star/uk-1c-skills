@@ -1,10 +1,14 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "uk-1c-skills"
 version = "0.1.0"
 description = "Ukrainian patch/overlay downstream of Nikolay-Shirokov/cc-1c-skills"
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = "MIT"
 dependencies = [
   "PyYAML>=6.0",
 ]
@@ -13,6 +17,13 @@ dependencies = [
 test = [
   "pytest>=8.0",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "build"}
+
+[tool.setuptools.packages.find]
+where = ["build"]
+include = ["uk1c*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["build"]
