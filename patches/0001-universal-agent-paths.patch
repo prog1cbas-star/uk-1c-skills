@@ -1,0 +1,11 @@
+# uk1c-patch: disabled
+# Patch-Status: Documentation-only
+# Purpose: example patch for replacing hardcoded Claude-only paths if upstream regresses.
+# Refresh with: git -C upstream/cc-1c-skills diff > patches/0001-universal-agent-paths.patch
+
+diff --git a/scripts/switch.py b/scripts/switch.py
+--- a/scripts/switch.py
++++ b/scripts/switch.py
+@@
+-SOURCE_PREFIX = '.claude/skills'
++SOURCE_PREFIX = os.environ.get('CC_1C_SKILLS_SOURCE_PREFIX', '.claude/skills')

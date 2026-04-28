@@ -1,0 +1,10 @@
+# uk1c-patch: disabled
+# Patch-Status: Documentation-only
+# Purpose: template for upstream changes that would externalize platform version rules.
+# Prefer overlays/configs/platform_versions_ua.yaml unless an upstream file must be changed.
+
+diff --git a/docs/1c-config-objects-spec.md b/docs/1c-config-objects-spec.md
+--- a/docs/1c-config-objects-spec.md
++++ b/docs/1c-config-objects-spec.md
+@@
++<!-- UA downstream keeps platform version rules in configs/platform_versions_ua.yaml. -->

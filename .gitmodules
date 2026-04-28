@@ -1,0 +1,4 @@
+[submodule "upstream/cc-1c-skills"]
+	path = upstream/cc-1c-skills
+	url = https://github.com/Nikolay-Shirokov/cc-1c-skills.git
+	branch = main

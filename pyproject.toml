@@ -1,0 +1,20 @@
+[project]
+name = "uk-1c-skills"
+version = "0.1.0"
+description = "Ukrainian patch/overlay downstream of Nikolay-Shirokov/cc-1c-skills"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["build"]
+testpaths = ["tests"]
+addopts = "-q"

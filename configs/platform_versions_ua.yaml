@@ -1,0 +1,250 @@
+"8.3.15":
+  xml_format: "2.9"
+  compatibility_mode: "Version8_3_15"
+  configuration_xml_features: []
+  generated_type_name_validation:
+    mode: "strict"
+    mismatch_is_error: true
+    mismatch_is_warning: false
+    rule: "GeneratedType name должен совпадать с <Name>"
+
+"8.3.16":
+  xml_format: "2.9.1"
+  compatibility_mode: "Version8_3_16"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+  generated_type_name_validation:
+    mode: "strict"
+    mismatch_is_error: true
+    mismatch_is_warning: false
+    rule: "GeneratedType name должен совпадать с <Name>"
+
+"8.3.17":
+  xml_format: "2.10"
+  compatibility_mode: "Version8_3_17"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+  generated_type_name_validation:
+    mode: "strict"
+    mismatch_is_error: true
+    mismatch_is_warning: false
+    rule: "GeneratedType name должен совпадать с <Name>"
+
+"8.3.18":
+  xml_format: "2.11"
+  compatibility_mode: "Version8_3_18"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+  generated_type_name_validation:
+    mode: "strict"
+    mismatch_is_error: true
+    mismatch_is_warning: false
+    rule: "GeneratedType name должен совпадать с <Name>"
+
+"8.3.19":
+  xml_format: "2.12"
+  compatibility_mode: "Version8_3_19"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+  generated_type_name_validation:
+    mode: "strict"
+    mismatch_is_error: true
+    mismatch_is_warning: false
+    rule: "GeneratedType name должен совпадать с <Name>"
+
+"8.3.20":
+  xml_format: "2.13"
+  compatibility_mode: "Version8_3_20"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.21":
+  xml_format: "2.14"
+  compatibility_mode: "Version8_3_21"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.22":
+  xml_format: "2.15"
+  compatibility_mode: "Version8_3_22"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.23":
+  xml_format: "2.16"
+  compatibility_mode: "Version8_3_23"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.24":
+  xml_format: "2.17"
+  compatibility_mode: "Version8_3_24"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.25":
+  xml_format: "2.18"
+  compatibility_mode: "Version8_3_25"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.26":
+  xml_format: "2.19"
+  compatibility_mode: "Version8_3_26"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.3.27":
+  xml_format: "2.20"
+  compatibility_mode: "Version8_3_27"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+"8.5.x":
+  xml_format: "2.21"
+  compatibility_mode: "Version8_5_X"
+  configuration_xml_features:
+    - "StandaloneConfigurationRestrictionRoles"
+    - "InternalInfoContainedObject7"
+    - "URLExternalDataStorage"
+    - "MobileApplicationURLs"
+    - "DefaultReportAppearanceTemplate"
+    - "AllowedIncomingShareRequestTypes"
+    - "DatabaseTablespacesUseMode"
+  generated_type_name_validation:
+    mode: "tolerant"
+    mismatch_is_error: false
+    mismatch_is_warning: true
+    rule: "Несовпадение GeneratedType name и <Name> не является ошибкой"
+
+_configuration_xml_feature_registry:
+  StandaloneConfigurationRestrictionRoles:
+    introduced_in: "8.3.16"
+    xml_element: "<StandaloneConfigurationRestrictionRoles/>"
+    description: "Роли ограничения автономной конфигурации"
+
+  InternalInfoContainedObject7:
+    introduced_in: "8.3.17"
+    xml_element: "7-й xr:ContainedObject в InternalInfo"
+    class_id: "fb282519-d103-4dd3-bc12-cb271d631dfc"
+    description: "Дополнительный contained object в InternalInfo"
+
+  URLExternalDataStorage:
+    introduced_in: "8.3.18"
+    xml_element: "<URLExternalDataStorage/>"
+    description: "URL внешнего хранилища данных"
+
+  MobileApplicationURLs:
+    introduced_in: "8.3.18"
+    xml_element: "<MobileApplicationURLs/>"
+    description: "URL мобильных приложений"
+
+  DefaultReportAppearanceTemplate:
+    introduced_in: "8.3.20"
+    xml_element: "<DefaultReportAppearanceTemplate/>"
+    description: "Шаблон оформления отчётов по умолчанию"
+
+  AllowedIncomingShareRequestTypes:
+    introduced_in: "8.3.20"
+    xml_element: "<AllowedIncomingShareRequestTypes/>"
+    description: "Разрешённые типы входящих share-запросов"
+
+  DatabaseTablespacesUseMode:
+    introduced_in: "8.3.20"
+    xml_element: "<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>"
+    description: "Режим использования tablespaces базы данных"

@@ -1,0 +1,16 @@
+overlays:
+  - source: "overlays/root"
+    target: "."
+    mode: "copy"
+
+  - source: "overlays/skills"
+    target: ".agents/skills"
+    mode: "merge"
+
+  - source: "configs/platform_versions_ua.yaml"
+    target: "configs/platform_versions_ua.yaml"
+    mode: "replace"
+
+  - source: "overlays/docs"
+    target: "docs"
+    mode: "merge"

@@ -1,0 +1,6 @@
+upstream:
+  url: "https://github.com/Nikolay-Shirokov/cc-1c-skills.git"
+  branch: "main"
+  path: "upstream/cc-1c-skills"
+  commit: "not-initialized-in-generated-zip"
+  note: "Run python build/apply.py update-upstream after cloning the repository with network access."

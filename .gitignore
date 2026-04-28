@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# build workspace
+.uk1c_work/
+
+# 1C generated/local artifacts
+build/tmp/
+base/
+*.epf
+*.erf
+*.cf
+*.cfe
+*.dt
+*.log
+.v8-project.json
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

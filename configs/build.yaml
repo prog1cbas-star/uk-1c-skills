@@ -1,0 +1,20 @@
+repository:
+  name: "uk-1c-skills"
+  upstream_url: "https://github.com/Nikolay-Shirokov/cc-1c-skills.git"
+  upstream_branch: "main"
+  upstream_path: "upstream/cc-1c-skills"
+
+paths:
+  work_dir: ".uk1c_work"
+  dist_dir: "dist"
+  upstream_skills_dir: ".claude/skills"
+  canonical_skills_dir: ".agents/skills"
+  overlays_manifest: "overlays/manifest.yaml"
+  platform_registry: "configs/platform_versions_ua.yaml"
+
+validation:
+  fail_on_hardcoded_claude_paths: true
+  allow_hardcoded_claude_paths_in:
+    - "dist/.claude/skills"
+    - "docs"
+    - "patches"

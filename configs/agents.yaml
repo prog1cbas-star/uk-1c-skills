@@ -1,0 +1,30 @@
+agents:
+  chatgpt:
+    output_dir: ".agents/skills"
+    skill_file_name: "SKILL.md"
+    supports_allowed_tools: false
+    notes: "Universal ChatGPT-compatible Agent Skills layout"
+
+  claude:
+    output_dir: ".claude/skills"
+    skill_file_name: "SKILL.md"
+    supports_allowed_tools: true
+    notes: "Claude Code compatible layout"
+
+  codex:
+    output_dir: ".codex/skills"
+    skill_file_name: "SKILL.md"
+    supports_allowed_tools: false
+    notes: "OpenAI Codex project skills layout"
+
+  gemini:
+    output_dir: ".gemini/skills"
+    skill_file_name: "SKILL.md"
+    supports_allowed_tools: false
+    notes: "Gemini CLI project skills layout"
+
+  cursor:
+    output_dir: ".cursor/skills"
+    skill_file_name: "SKILL.md"
+    supports_allowed_tools: false
+    notes: "Cursor project skills layout"
